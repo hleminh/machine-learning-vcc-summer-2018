@@ -111,8 +111,5 @@ with tf.Session() as sess:
 
     print ("Da toi uu xong ham mat mat!")
 
-    pred = tf.nn.softmax(graph_output)
-    correct_pred = tf.equal(tf.argmax(pred, 1), tf.argmax(Y, 1))
-    score = tf.reduce_mean(tf.cast(correct_pred, "float"))
     acc = score.eval({X: mnist.test.images[:256], Y: mnist.test.labels[:256]})
     print ("Do chinh xac: ", acc)
