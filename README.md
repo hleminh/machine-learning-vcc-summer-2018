@@ -57,7 +57,7 @@ Step: 400, cost= 0.2922, acc= 0.898
 Da toi uu xong ham mat mat!
 Do chinh xac:  0.9453125
 ```
-## LSTM (RNN sử dụng Long Short Term Memory Cell units)
+### LSTM (RNN sử dụng Long Short Term Memory Cell units)
 ```
 Step: 300, cost= 0.2927, acc= 0.906
 Step: 310, cost= 0.1611, acc= 0.945
